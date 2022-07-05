@@ -1,0 +1,452 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.logo-header {
+    width: 10vw;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.0vw;
+    font-size: 2.5vw;
+}
+
+.btn {
+
+    display: flex;
+    gap: 3vw;
+    margin-top: 3.5vw;
+}
+
+.btn button {
+    cursor: pointer;
+    width: 13vw;
+    height: 3vw;
+    color: hsl(173, 24%, 93%);
+    border-radius: 5vw;
+    font-size: 1.1vw;
+    word-spacing: 0.45vw;
+}
+
+.btn button:nth-child(1) {
+    border: none;
+    border-bottom: 2px solid green;
+    filter: drop-shadow(0px 2px 4px hsl(171, 66%, 44%));
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn button:nth-child(1):hover { 
+    opacity: 60%;
+}
+
+.btn button:nth-child(2) {
+    border: none;
+    border-bottom: 2px solid blue;
+    filter: drop-shadow(0px 2px 4px hsl(233, 100%, 69%));
+    background-color: hsl(233, 100%, 69%);
+}
+
+.btn button:nth-child(2):hover { 
+    opacity: 60%;
+}
+
+
+/*Header*/
+
+
+.header-general {
+    background-image: url(/images/bg-header-desktop.png);
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position-y: -6vw;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.header-general h1 {
+    font-size: 2.8vw;
+    margin-top: 2.5vw;
+    margin-bottom: 1vw;
+
+}
+
+.header-general p {
+    font-size: 1.3vw;
+    width: 45vw;
+    text-align: center;
+}
+
+.accompany {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accompany p {
+    width: 50vw;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.box-accompany {
+    display: flex;
+    margin-top: 10vw;
+    width: 99vw;
+}
+
+.box-accompany img {
+    position: relative;
+    right: 2vw;
+    width: 43vw;
+    margin-right: 10vw;
+}
+
+.box-accompany p {
+    width: 28vw;
+    margin-top: 1vw;
+    text-align: left;
+    font-size: 1.3vw;
+}
+
+.box-accompany h3:first-child {
+    margin-top: 4vw;
+}
+
+.box-accompany h3 {
+    width: 15vw;
+    font-size: 1.8vw;
+    margin-top: 2vw;
+}
+
+.access {
+    display: flex;
+    margin-top: 10vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.access img {
+    margin-top: 5vw;
+    width: 50vw;
+    margin-bottom: 5vw;
+
+}
+
+.access-p {
+    text-align: center;
+    width: 53vw;
+    font-size: 1.3vw;
+}
+
+.tools-p {
+    text-align: center;
+    width: 90vw;
+    font-size: 1.3vw;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vw;
+    gap: 3vw;
+}
+
+.description-gen {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    align-items: center;
+}
+
+.description-gen p {
+    text-align: center;
+}
+
+.description p {
+    width: 28vw;
+    font-size: 1.3vw
+}
+
+.description h3 {
+    font-size: 2.2vw
+}
+
+.description img {
+    width: 3.5vw;
+    height: 3.5vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+.pre-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vw;
+}
+
+.pre-footer p {
+    width: 50vw;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.pre-footer img {
+    width: 7.5vw;
+}
+
+.associates {
+    display: flex;
+    gap: 12vw;
+    justify-content: center;
+    margin-bottom: 12vw;
+}
+
+.associates h2 {
+    text-align: center;
+    margin-bottom: 2.5vw;
+    font-size: 2.8vw;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content:center;
+    height: 15vw;
+    margin-top: 12vw ;
+    background-color: hsl(180, 15%, 95%);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer img { 
+    width: 5vw;
+    height: 5vw;
+}
+
+.box-logo-footer { 
+    display: flex;
+    align-items: center;
+}
+
+.info { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 4vw;
+    margin: 3vw 26vw
+}
+
+.info a { 
+    font-size: 1.5vw;
+}
+
+.info a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.social { 
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.social img { 
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+
+#face:hover{
+    filter: drop-shadow(0px 2px 4px blue);
+}
+#twitter:hover { 
+    filter: drop-shadow(0px 2px 4px hsl(203, 80%, 51%));
+}
+#insta:hover {
+    filter: drop-shadow(0px 2px 4px hsl(342, 100%, 42%));
+}
+
+
+
+
+
+@media (max-width: 599px) {
+
+    .header-general {
+        background-image: url(/images/bg-header-mobile.png);
+        height: 150vw;
+    }
+
+    .logo-header {
+        width: 25vw;
+    }
+
+    .header-general h1 {
+        font-size: 8vw;
+        width: 86vw;
+        margin-top: 6vw;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+
+    .header-general p {
+        font-size: 4.2vw;
+        width: 81vw;
+    }
+
+    .btn {
+        margin-top: 10vw;
+        flex-direction: column;
+    }
+
+    .btn button {
+        width: 81vw;
+        height: 11vw;
+        font-size: 4.1vw;
+    }
+
+    h2 {
+        width: 81vw;
+        font-size: 7.5vw;
+        margin-bottom: 8vw;
+    }
+
+    .accompany p {
+        font-size: 4.2vw;
+        width: 81vw;
+    }
+
+    .box-accompany {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-accompany img {
+        width: 85vw;
+        position: static;
+        margin-right: 0vw;
+    }
+
+    .box-accompany h3 {
+        width: 37.5vw;
+        font-size: 5.5vw;
+        margin-top: 8vw;
+    }
+
+    .box-accompany p { 
+        text-align: center;
+        margin-top: 4vw;
+    }
+
+    .box-accompany h3:first-child {
+        margin-top: 15vw;
+    }
+
+    .functions-page {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .access { 
+        margin-top: 30vw;
+    }
+
+    .access p { 
+        font-size: 4.2vw;
+        width: 81vw;
+    }
+
+    .access img {
+        margin-top: 15vw;
+        width: 90vw;
+        margin-bottom: 15vw;
+    }
+
+    .description { 
+        flex-direction: column;
+    }
+
+    .description img {
+        width: 7.5vw;
+        height: 7.5vw;
+        margin-top: 10.5vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .description h3 {
+        font-size: 5.5vw;
+    }
+
+    .associates { 
+        gap: 10vw;
+        margin-bottom: 30vw;
+        flex-direction: column;
+    }
+
+    .pre-footer { 
+        margin-top: 30vw;
+    }
+
+    .pre-footer img { 
+        width: 25.5vw;
+    }
+
+    .pre-footer p { 
+        font-size: 4.2vw;
+        width: 80vw;
+    }
+
+    footer { 
+        height: 90vw;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25vw;
+    }
+
+    footer img { 
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .info { 
+        margin: 10vw 0vw;
+        align-items: center;
+
+    }
+
+    .info a { 
+        font-size: 4vw;
+    }
+
+    .social { 
+        gap: 6vw;
+    }
+
+    .social img { 
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+}
